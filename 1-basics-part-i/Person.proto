@@ -1,0 +1,8 @@
+// Person (ex: Mark Zuckerburg)
+syntax = "proto3";
+
+message Person{
+    string First = 1;
+    repeated string Middle = 2;
+    string Last = 3;
+}

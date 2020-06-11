@@ -1,0 +1,8 @@
+// Money (ex: 35.42 USD)
+syntax = "proto3";
+
+message Currency{
+    string Code = 1; // "BTC", "ETH", etc.
+    int64 Units = 2; // Whole units, bills
+    int64 Fractional = 3;  // Small change.
+}

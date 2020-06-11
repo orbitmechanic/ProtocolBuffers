@@ -1,0 +1,7 @@
+// Latitude, Longitude (ex: -33.865382, 151.192861)
+syntax = "proto3";
+
+message LatLon{ // in deg.
+    double Latitude = 1; 
+    double Longitude = 2; 
+}
