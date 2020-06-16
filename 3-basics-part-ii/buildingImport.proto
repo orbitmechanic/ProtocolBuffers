@@ -1,0 +1,10 @@
+// Separate files with imports
+syntax = "proto3";
+
+import "protocolbuffers/3-basics-part-ii/streetImport.proto";
+
+message Building {
+    string name = 1;
+    string number = 2;
+    Street street = 3;
+}
